@@ -16,7 +16,7 @@ export class MongooseConfigService implements MongooseOptionsFactory {
       useNewUrlParser: true,
       useFindAndModify: false,
       useUnifiedTopology: true,
-      uri: 'mongodb://localhost:27017/acp--db'
+      uri: 'mongodb://mongodb-service:27017/acp--db'
     }
   }
 }
